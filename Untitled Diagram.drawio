@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T00:49:43.557Z" agent="5.0 (Windows)" etag="F6af4ZPR3tWrVr58Y4Ep" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-25T00:50:06.022Z" agent="5.0 (Windows)" etag="ahbyQYg3o8zW8VbIhg1Q" version="14.7.0" type="github">
   <diagram id="QwKQXVT4t3e9Sc0ZDkFQ" name="Page-1">
     <mxGraphModel dx="1422" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0">
       <root>
@@ -13,8 +13,8 @@
         <mxCell id="XKVMX29ZRd29AsLRONiJ-3" value="d =! sabado ^ d =! domingo " style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="382.5" y="130" width="189" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XKVMX29ZRd29AsLRONiJ-4" value="&lt;div&gt;d: Dia actual&lt;/div&gt;&lt;div&gt;x: dia de entrega&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="629.5" y="100" width="110" height="40" as="geometry" />
+        <mxCell id="XKVMX29ZRd29AsLRONiJ-4" value="&lt;div&gt;d: Dia actual&lt;/div&gt;&lt;div&gt;x: dia de entrega&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="619.5" y="80" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XKVMX29ZRd29AsLRONiJ-5" value="" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="XKVMX29ZRd29AsLRONiJ-3" target="XKVMX29ZRd29AsLRONiJ-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
