@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TiendaDeTodo</title>
+</head>
+
+<body>
+    <div class="cont">
+        <div class="headRow">            
+            <div class="headCol1">
+                <h1 class="indexTitle">Tienda DeTodo</h1>
+            </div>
+            <div class="headCol2">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <button class="btn btn-primary btn-lg btn-block" type="button">Buscar</button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="search" aria-label="" aria-describedby="basic-addon1" style="margin-left: 10px; border-radius: 5px;">
+                </div>
+            </div>
+            <div class="headCol3" style="display: flex;">
+                <img src="assets/images/RedesSociales.jpg" class="imgRedes">
+                <a href="carritoCompras.html">
+                  <img src="assets/images/carritoCompras.png" class="carritoCompras">
+                </a>
+            </div>
+        </div>          
+    </div>
+
+    <div class="btn-group" role="group" aria-label="Basic outlined example">
+        <a href="index.html">
+        <button type="button" class="btn btn-primary btn-lg btn-block">Inicio</button>
+        </a>
+        <a href="products.html">
+        <button type="button" class="btn btn-primary btn-lg btn-block">Tienda</button>
+        </a>
+        <a href="login.html">
+        <button type="button" class="btn btn-primary btn-lg btn-block">Login</button>
+        </a>
+    </div>
+
+    <div class="bodyCont" style="height: auto;">
+      <div style="margin-left: 120px; width: 85%;">
+        <button class="btn btn-primary btn-lg btn-block" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Agregar Producto Nuevo</button>
+      </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Nuevo Producto</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div style="margin-left: 150px;">
+                <div style="display: flex;">
+                  <p style="font-size: 20px; font-weight: bold; margin-left: 40px; margin-right: 30px; margin-top: 20px;">Precio Unitario:</p>
+                  <input type="text" class="form-control" style="width: 150px; height: 40px; margin-top: 20px;">
+                </div>
+                <div style="display: flex;">
+                  <p style="font-size: 20px; font-weight: bold; margin-left: 40px; margin-right: 30px; margin-top: 20px;">Cantidad inventaro</p>
+                  <input type="text" class="form-control" style="width: 70px; height: 40px; margin-top: 20px;">
+                </div>            
+                <div>
+                  <p style="font-size: 20px; font-weight: bold; margin-left: 40px; margin-right: 30px; margin-top: 20px;">Descripcion</p>
+                  <input type="text" class="form-control" style="margin-left: 40px; width: 400px; height: 200px;">
+                </div>
+                <div class="mb-3">
+                  <label for="formFile" class="form-label" style="font-size: 20px; font-weight: bold; margin-left: 40px; margin-right: 30px; margin-top: 20px;">Adjuntar Imagen</label>
+                  <input class="form-control" type="file" id="formFile" style="margin-left: 40px; width: 400px;">
+                </div>
+              </div>
+            </form> 
+          </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver</button>
+          <button type="submit" class="btn btn-primary">Agregar Nuevo Producto</button>
+          </div>
+      </div>
+      </div>
+    </div>
+  <!-- Modal -->
+       <!-- Incio Tabla -->
+      <table class="table table-hover" style="margin-left: 120px; margin-top: 30px; width: 85%; border-style: solid;">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">NombreProducto</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Imagen</th>
+            <th scope="col">Detalle</th>
+            <th scope="col">Ediciones Admin</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+          <tr>
+            <th scope="row">Tennis Converse Rojos</th>
+            <td>$ 250.000</td>
+            <td><img src="assets/images/Products/ConverseRojos.jpg" style="width: 400px;"></td>
+            <td>Tennis marca coverse de color rojo para hombre y mujer <br>con varias tallas</td>
+            <td>
+              <div style="display: flex;">
+                <a href=""><img src="assets/images/save.png" class="imgCRUD"></a>
+                <a href=""><img src="assets/images/delete.png" class="imgCRUD"></a>
+                <a href=""><img src="assets/images/edit.png" class="imgCRUD"></a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Tennis deportivos marca Brooks</th>
+            <td>$ 310.000</td>
+            <td><img src="assets/images/Products/TenisDeportivos.jpg" style="width: 400px;"></td>
+            <td>Tennis deportivos comodos y frescos para el deporte diario<br>cuentan suela con aeroflex y esta para todas las tallas</td>
+            <td>
+              <div style="display: flex;">
+                <a href=""><img src="assets/images/save.png" class="imgCRUD"></a>
+                <a href=""><img src="assets/images/delete.png" class="imgCRUD"></a>
+                <a href=""><img src="assets/images/edit.png" class="imgCRUD"></a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Zapatillas Uno todo terreno</th>
+            <td>$ 420.000</td>
+            <td><img src="assets/images/Products/ZapatillasUno.jpg" style="width: 400px;"></td>
+            <td>Zapatillas comodas para cualquier terreno o caminata <br> resistentes al agua y suela antideslizante para terrenos dificiles</td>
+            <td>
+              <div style="display: flex;">
+                <a href=""><img src="assets/images/save.png" class="imgCRUD"></a>
+                <a href=""><img src="assets/images/delete.png" class="imgCRUD"></a>
+                <a href=""><img src="assets/images/edit.png" class="imgCRUD"></a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Zapatillas Uno todo terreno</th>
+            <td>$ 420.000</td>
+            <td><img src="assets/images/Products/ZapatillasUno.jpg" style="width: 400px;"></td>
+            <td>Zapatillas comodas para cualquier terreno o caminata <br> resistentes al agua y suela antideslizante para terrenos dificiles</td>
+            <td>
+              <div style="display: flex;">
+                <a href=""><img src="assets/images/save.png" class="imgCRUD"></a>
+                <a href=""><img src="assets/images/delete.png" class="imgCRUD"></a>
+                <a href=""><img src="assets/images/edit.png" class="imgCRUD"></a>
+              </div>
+            </td>
+          </tr>
+          
+        </tbody>
+      </table>
+       <!-- Fin Tabla -->        
+    </div>
+
+    <div style="width: auto; height: 300px; display: flex; margin-top: 60px;">
+        <div style=" height: 300px; width: 25%;">
+        </div>
+        
+        <div style=" height: 300px; width: 25%;">
+            <div class="ftCont">
+                <p class="pFtCont">
+                    Contactenos: <br>
+                    Ventas Whatsapp: (+57) 300 444 88 99 <br>
+                    Servicio al cliente: (601) 444 88 99 <br>
+                    Linea nacional: 01 8000 930 930 88 <br>
+                </p>
+            </div>
+        </div>
+        <div style=" height: 300px; width: 25%;">
+            <div class="ftCont">
+                <p class="pFtCont">
+                    Subscribete al newsletter <br>
+                    <div class="form-check" style="margin-left: 15px;">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault" style="font-size: 20px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                          Acepto Terminos y Condiciones
+                        </label>
+                        <div class="input-group mb-3" style="position: relative; left: -35px;">
+                            <input type="text" class="form-control" placeholder="ingresar correo electronico" aria-label="" aria-describedby="basic-addon1" style="margin-right: 10px; border-radius: 5px;">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-primary btn-lg btn-block" type="button">Subscribete</button>
+                              </div>
+                        </div>
+                    </div>
+                </p>
+            </div>
+        </div>
+
+        <div style=" height: 300px; width: 25%;">
+        </div>
+    </div>
+
+</body>
+
+
+<link rel="stylesheet" type="text/css" href="assets/styleSheet.css">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <script src="assets/js/bootstrap.min.js"></script>
+
+</html>

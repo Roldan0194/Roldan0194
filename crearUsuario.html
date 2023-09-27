@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TiendaDeTodo</title>
+</head>
+
+<body>
+    <div class="cont">
+        <div class="headRow">            
+            <div class="headCol1">
+                <h1 class="indexTitle">Tienda DeTodo</h1>
+            </div>
+            <div class="headCol2">
+            </div>
+            <div class="headCol3">
+                <img src="assets/images/RedesSociales.jpg" class="imgRedes">
+            </div>
+        </div>          
+    </div>
+
+    <div class="btn-group" role="group" aria-label="Basic outlined example">
+        <a href="index.html">
+        <button type="button" class="btn btn-primary btn-lg btn-block">Inicio</button>
+        </a>
+        <a href="">
+        <button type="button" class="btn btn-primary btn-lg btn-block">Tienda</button>
+        </a>
+        <a href="login.html">
+        <button type="button" class="btn btn-primary btn-lg btn-block">Login</button>
+        </a>
+    </div>
+
+    <div class="bodyCont" style="border-style: solid; border-width: 1px; height: 730px; margin-left: 50px; margin-right: 50px; border-radius: 10px; background-color: rgba(13, 109, 243, 0.253);">
+
+        <div class="headCol1">
+            <h1 style="margin-top: 5px;" class="indexTitle">Crear Usuario</h1>
+            <h2 class="subTitle">Formulario</h2>
+        </div>
+        
+        <div class="2ColsUser" style="display: flex; margin-top: 25px;">
+            <form style="display: flex; width: 100%;">
+                <div class="card-body p-5 text-center" style="width: 40%; height: 560px; margin-left: 80px;">
+                    <div class="form-group">
+                        <div style="display: flex; margin-bottom: 30px;"> 
+                            <label style="margin: 10px; margin-right: 60px; font-size: 20px; font-weight: bold;">Nombre</label>
+                            <input type="input" class="form-control form-control-lg" />
+                        </div>
+                        <div style="display: flex; margin-bottom: 30px;"> 
+                            <label style="margin: 10px; margin-right: 50px; font-size: 20px; font-weight: bold;">Direccion</label>
+                            <input type="input" class="form-control form-control-lg" />
+                        </div>
+                        <div style="display: flex; margin-bottom: 40px;"> 
+                            <label style="margin: 10px; margin-right: 60px; font-size: 20px; font-weight: bold;">Telefono</label>
+                            <input type="input" class="form-control form-control-lg" />
+                        </div>                        
+                        <div style="display: flex; margin-bottom: 40px;"> 
+                            <label style="margin: 10px; margin-right: 75px; font-size: 20px; font-weight: bold;">Ciudad</label>                            
+                            <select name="citySelect" class="btn btn-primary btn-lg btn-block">
+                                <option value="Bogota">Bogota</option>
+                                <option value="Medellin" selected>Medellin</option>
+                                <option value="Cali">Cali</option>
+                            </select>  
+                        </div>
+                        <div style="display: flex; margin-bottom: 30px;"> 
+                            <label style="margin: 10px; margin-right: 15px; font-size: 20px; font-weight: bold;">Metodo Pago</label>                            
+                            <select name="citySelect" class="btn btn-primary btn-lg btn-block">
+                                <option value="TarjetaCredito">TarjetaCredito</option>
+                                <option value="TarjetaDebito" selected>TarjetaDebito</option>
+                                <option value="Efectivo">Efectivo</option>
+                            </select>  
+                        </div>
+                        <div style="display: flex; margin-bottom: 40px;"> 
+                            <label style="margin: 10px; margin-right: 60px; font-size: 20px; font-weight: bold;">Telefono</label>
+                            <input type="input" class="form-control form-control-lg" />
+                        </div>                     
+                    </div>
+                </div>
+
+                <div class="card-body p-5 text-center" style="width: 40%; height: 560px; margin-right: 80px;">
+                    <div style="display: flex; margin-bottom: 30px;"> 
+                        <label style="margin: 10px; margin-right: 60px; font-size: 20px; font-weight: bold;">Usuario</label>
+                        <input type="input" class="form-control form-control-lg" />
+                    </div>
+                    <div style="display: flex; margin-bottom: 30px;"> 
+                        <label style="margin: 10px; margin-right: 28px; font-size: 20px; font-weight: bold;">Contraseña</label>
+                        <input type="password" class="form-control form-control-lg" />
+                    </div>
+                    <div>
+                        <label class="form-check-label" for="flexCheckDefault" style="font-size: 20px; font-weight: bold;">
+                            Acepto Terminos y Condiciones
+                          </label>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style="margin-left: 30px; margin-top: 10px; border-color: black;">                        
+                    </div>
+                    <div style="margin-top: 30px;">
+                        <label class="form-check-label" for="flexCheckDefault" style="font-size: 20px; font-weight: bold;">
+                            Recibir noticias
+                          </label>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style="margin-left: 30px; margin-top: 10px; border-color: black;">                        
+                    </div>
+                    <div style="align-items: center; margin-top: 30px;">       
+                        <button class="btn btn-primary btn-lg btn-block" type="submit">Crear Usuario</button>
+                        <a href="index.html">
+                        <button class="btn btn-primary btn-lg btn-block" type="button">Volver</button>
+                        </a>
+                    </div> 
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+
+<link rel="stylesheet" type="text/css" href="assets/styleSheet.css">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <script src="assets/js/bootstrap.min.js"></script>
+
+</html>

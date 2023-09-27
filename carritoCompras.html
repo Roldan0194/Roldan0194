@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TiendaDeTodo</title>
+</head>
+
+<body>
+    <div class="cont">
+        <div class="headRow">            
+            <div class="headCol1">
+                <h1 class="indexTitle">Tienda DeTodo</h1>
+            </div>
+            <div class="headCol2">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <button class="btn btn-primary btn-lg btn-block" type="button">Buscar</button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="search" aria-label="" aria-describedby="basic-addon1" style="margin-left: 10px; border-radius: 5px;">
+                </div>
+            </div>
+            <div class="headCol3" style="display: flex;">
+                <img src="assets/images/RedesSociales.jpg" class="imgRedes">
+                <img src="assets/images/carritoCompras.png" class="carritoCompras">
+            </div>
+        </div>          
+    </div>
+
+    <div class="btn-group" role="group" aria-label="Basic outlined example">
+        <a href="index.html">
+        <button type="button" class="btn btn-primary btn-lg btn-block">Inicio</button>
+        </a>
+        <a href="products.html">
+        <button type="button" class="btn btn-primary btn-lg btn-block">Tienda</button>
+        </a>
+        <a href="login.html">
+        <button type="button" class="btn btn-primary btn-lg btn-block">Login</button>
+        </a>
+    </div>
+
+    <div class="bodyCont" style="height: auto;">
+       <!-- Incio Tabla -->
+       <table class="table" style="margin-left: 120px; margin-top: 30px; width: 85%; border-style: solid;">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">NombreProducto</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Imagen</th>
+            <th scope="col">Cant Sol</th>
+            <th scope="col">SubTotal</th>
+            <th scope="col">Borrar</th>
+          </tr>
+        </thead>
+        <tbody>          
+          <tr>
+            <th scope="row">Tennis Converse Rojos</th>
+            <td>$ 250.000</td>
+            <td><img src="assets/images/Products/ConverseRojos.jpg" style="width: 400px;"></td>
+            <td>5 Unds</td>
+            <td>$ 1250.000</td>
+            <td style="align-items: center;"><button type="button" class="btn btn-primary btn-lg btn-block">Borrar</button></td>
+          </tr>
+          <tr class="table-secondary">
+            <th scope="row"></th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="font-size: 25px; font-weight: bold;">Total</td>
+            <td style="font-size: 25px; font-weight: bold;">$ 1250.000</td>
+          </tr>
+
+          
+        </tbody>
+      </table>
+       <!-- Fin Tabla -->        
+    </div>
+
+    <div class="card-body p-5 text-center">
+        <div style="align-items: center;">       
+            <button class="btn btn-primary btn-lg btn-block" type="button">Comprar</button>
+            <button class="btn btn-primary btn-lg btn-block" type="button">Limpiar Carrito</button>
+            <a href="products.html">
+            <button class="btn btn-primary btn-lg btn-block" type="button">Volver</button>
+            </a>
+        </div> 
+    </div>
+
+    <div style="width: auto; height: 300px; display: flex;">
+        <div style=" height: 300px; width: 25%;">
+        </div>
+        
+        <div style=" height: 300px; width: 25%;">
+            <div class="ftCont">
+                <p class="pFtCont">
+                    Contactenos: <br>
+                    Ventas Whatsapp: (+57) 300 444 88 99 <br>
+                    Servicio al cliente: (601) 444 88 99 <br>
+                    Linea nacional: 01 8000 930 930 88 <br>
+                </p>
+            </div>
+        </div>
+        <div style=" height: 300px; width: 25%;">
+            <div class="ftCont">
+                <p class="pFtCont">
+                    Subscribete al newsletter <br>
+                    <div class="form-check" style="margin-left: 15px;">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault" style="font-size: 20px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                          Acepto Terminos y Condiciones
+                        </label>
+                        <div class="input-group mb-3" style="position: relative; left: -35px;">
+                            <input type="text" class="form-control" placeholder="ingresar correo electronico" aria-label="" aria-describedby="basic-addon1" style="margin-right: 10px; border-radius: 5px;">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-primary btn-lg btn-block" type="button">Subscribete</button>
+                              </div>
+                        </div>
+                    </div>
+                </p>
+            </div>
+        </div>
+
+        <div style=" height: 300px; width: 25%;">
+        </div>
+    </div>
+
+</body>
+
+
+<link rel="stylesheet" type="text/css" href="assets/styleSheet.css">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <script src="assets/js/bootstrap.min.js"></script>
+
+</html>

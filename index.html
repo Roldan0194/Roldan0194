@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TiendaDeTodo</title>
+</head>
+
+<body>
+    <div class="cont">
+        <div class="headRow">            
+            <div class="headCol1">
+                <h1 class="indexTitle">Tienda DeTodo</h1>
+            </div>
+            <div class="headCol2">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <button class="btn btn-primary btn-lg btn-block" type="button">Buscar</button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="search" aria-label="" aria-describedby="basic-addon1" style="margin-left: 10px; border-radius: 5px;">
+                </div>
+            </div>
+            <div class="headCol3">
+                <img src="assets/images/RedesSociales.jpg" class="imgRedes">
+            </div>
+        </div>          
+    </div>
+
+    <div class="btn-group" role="group" aria-label="Basic outlined example">
+        <a href="index.html">
+        <button type="button" class="btn btn-primary btn-lg btn-block">Inicio</button>
+        </a>
+        <a href="products.html">
+        <button type="button" class="btn btn-primary btn-lg btn-block">Tienda</button>
+        </a>
+        <a href="login.html">
+        <button type="button" class="btn btn-primary btn-lg btn-block">Login</button>
+        </a>
+    </div>
+
+    <div class="bodyCont">
+
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel"  style="position: relative; top: 60px;">            
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="assets/images/ConverseRojos.jpg" class="d-block w-100" alt="Prod1">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="assets/images/TenisDeportivos.jpg" class="d-block w-100" alt="Prod2">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="assets/images/ZapatillasUno.jpg" class="d-block w-100" alt="Prod3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev" style="background-color: black; width: 100px;">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next" style="background-color: black; width: 100px;">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </div>
+
+    <div style="width: auto; height: 300px; display: flex; margin-top: 20px;">
+        <div style=" height: 300px; width: 25%;">
+        </div>
+        
+        <div style=" height: 300px; width: 25%;">
+            <div class="ftCont">
+                <p class="pFtCont">
+                    Contactenos: <br>
+                    Ventas Whatsapp: (+57) 300 444 88 99 <br>
+                    Servicio al cliente: (601) 444 88 99 <br>
+                    Linea nacional: 01 8000 930 930 88 <br>
+                </p>
+            </div>
+        </div>
+        <div style=" height: 300px; width: 25%;">
+            <div class="ftCont">
+                <p class="pFtCont">
+                    Subscribete al newsletter <br>
+                    <div class="form-check" style="margin-left: 15px;">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault" style="font-size: 20px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                          Acepto Terminos y Condiciones
+                        </label>
+                        <div class="input-group mb-3" style="position: relative; left: -35px;">
+                            <input type="text" class="form-control" placeholder="ingresar correo electronico" aria-label="" aria-describedby="basic-addon1" style="margin-right: 10px; border-radius: 5px;">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-primary btn-lg btn-block" type="button">Subscribete</button>
+                              </div>
+                        </div>
+                    </div>
+                </p>
+            </div>
+        </div>
+
+        <div style=" height: 300px; width: 25%;">
+        </div>
+    </div>
+
+</body>
+
+
+<link rel="stylesheet" type="text/css" href="assets/styleSheet.css">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <script src="assets/js/bootstrap.min.js"></script>
+
+</html>
